@@ -131,7 +131,7 @@ with open("output.gif", 'wb') as f:
 
 ### Affect
 
-<img src="documentation/output/affect.png" align="right" width="150">
+<img src="documentation/output/affect.png" align="right" width="150" height="170">
 
 > `MainKronos` is the worst.
 

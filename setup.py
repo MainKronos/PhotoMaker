@@ -5,14 +5,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="photomaker",
-    version="1.0.0",
+    version="1.0.1",
     author="MainKronos",
     description="A library to create funny pictures with your friends' photos.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/MainKronos/PhotoMaker",
     packages=setuptools.find_packages(),
-    install_requires=['PIL'],
+    install_requires=['Pillow'],
 	license='MIT',
     classifiers=[
         "Programming Language :: Python :: 3",

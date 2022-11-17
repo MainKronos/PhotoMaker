@@ -1,5 +1,6 @@
 from PIL import ImageFilter, ImageDraw, Image, ImageSequence
 from io import BytesIO
+from .res import *
 
 def burn(pic: bytes) -> bytes:
 	"""
@@ -9,10 +10,8 @@ def burn(pic: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/burn.gif"
-
 	img = Image.open(BytesIO(pic)).convert("RGBA")
-	base = Image.open(base)
+	base = Image.open(BytesIO(burn_bytes))
 
 	img = img.resize((500, 500))
 
@@ -37,10 +36,8 @@ def salt(pic: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/salt.gif"
-
 	img = Image.open(BytesIO(pic)).convert("RGBA").resize((500, 500))
-	base = Image.open(base)
+	base = Image.open(BytesIO(salt_bytes))
 
 	frames = []
 
@@ -67,10 +64,8 @@ def trash(pic: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/trash.png"
-
 	img = Image.open(BytesIO(pic)).convert("RGBA")
-	base = Image.open(base).convert("RGBA").copy()
+	base = Image.open(BytesIO(trash_bytes)).convert("RGBA").copy()
 
 	img = img.resize((309, 309))
 	img = img.filter(ImageFilter.BLUR)
@@ -91,10 +86,8 @@ def delete(pic: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/delete.png"
-
 	img = Image.open(BytesIO(pic)).convert("RGBA")
-	base = Image.open(base).convert("RGBA").copy()
+	base = Image.open(BytesIO(delete_bytes)).convert("RGBA").copy()
 
 	img = img.resize((195, 195))
 
@@ -114,10 +107,8 @@ def hitler(pic: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/hitler.png"
-
 	img = Image.open(BytesIO(pic)).convert("RGBA")
-	base = Image.open(base).convert("RGBA").copy()
+	base = Image.open(BytesIO(hitler_bytes)).convert("RGBA").copy()
 
 	img = img.resize((140, 140))
 
@@ -137,10 +128,8 @@ def rip(pic: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/rip.png"
-
 	img = Image.open(BytesIO(pic)).convert("RGBA")
-	base = Image.open(base).convert("RGBA").copy()
+	base = Image.open(BytesIO(rip_bytes)).convert("RGBA").copy()
 
 	mask = Image.new("RGBA", (720, 405), 0)
 
@@ -163,10 +152,8 @@ def facepalm(pic: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/facepalm.png"
-
 	img = Image.open(BytesIO(pic)).convert("RGBA")
-	base = Image.open(base).convert("RGBA").copy()
+	base = Image.open(BytesIO(facepalm_bytes)).convert("RGBA").copy()
 
 	mask = Image.new("RGBA", (632, 357), 0)
 
@@ -189,10 +176,8 @@ def leader(pic: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/leader.png"
-
 	img = Image.open(BytesIO(pic)).convert("RGBA")
-	base = Image.open(base).convert("RGBA").copy()
+	base = Image.open(BytesIO(leader_bytes)).convert("RGBA").copy()
 
 	mask = Image.new("RGBA", (600, 539), 0)
 
@@ -215,10 +200,8 @@ def affect(pic: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/affect.png"
-
 	img = Image.open(BytesIO(pic)).convert("RGBA")
-	base = Image.open(base).convert("RGBA").copy()
+	base = Image.open(BytesIO(affect_bytes)).convert("RGBA").copy()
 
 	img = img.resize((200, 200)).crop((0, 21.5, 200, 178.5))
 
@@ -238,10 +221,8 @@ def beautiful(pic: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/beautiful.png"
-
 	img = Image.open(BytesIO(pic)).convert("RGBA")
-	base = Image.open(base).convert("RGBA").copy()
+	base = Image.open(BytesIO(beautiful_bytes)).convert("RGBA").copy()
 
 	mask = Image.new("RGBA", (376, 400), 0)
 
@@ -265,11 +246,9 @@ def kiss(pic1: bytes, pic2: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/kiss.png"
-
 	img1 = Image.open(BytesIO(pic1)).convert("RGBA")
 	img2 = Image.open(BytesIO(pic2)).convert("RGBA")
-	base = Image.open(base).convert("RGBA").copy()
+	base = Image.open(BytesIO(kiss_bytes)).convert("RGBA").copy()
 
 	mask = Image.new("L", (200, 200), 0)
 
@@ -296,11 +275,9 @@ def bed(pic1: bytes, pic2: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/bed.png"
-
 	img1 = Image.open(BytesIO(pic1)).convert("RGBA")
 	img2 = Image.open(BytesIO(pic2)).convert("RGBA")
-	base = Image.open(base).convert("RGBA").copy()
+	base = Image.open(BytesIO(bed_bytes)).convert("RGBA").copy()
 
 	mask1 = Image.new("L", (100, 100), 0)
 	mask2 = Image.new("L", (70, 70), 0)
@@ -333,11 +310,9 @@ def spank(pic1: bytes, pic2: bytes) -> bytes:
 	```
 	"""
 
-	base = "photomaker/res/spank.png"
-
 	img1 = Image.open(BytesIO(pic1)).convert("RGBA")
 	img2 = Image.open(BytesIO(pic2)).convert("RGBA")
-	base = Image.open(base).convert("RGBA").copy()
+	base = Image.open(BytesIO(spank_bytes)).convert("RGBA").copy()
 
 	mask = Image.new("L", (140, 140), 0)
 

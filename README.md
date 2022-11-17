@@ -63,7 +63,7 @@ with open("output.gif", 'wb') as f:
 > `MainKronos` is actually trash.
 
 ```python
-with open("output.gif", 'wb') as f:
+with open("output.png", 'wb') as f:
 	f.write(trash(MainKronos))
 ```
 
@@ -74,7 +74,7 @@ with open("output.gif", 'wb') as f:
 <img src="documentation/output/delete.png" align="right" width="150">
 
 ```python
-with open("output.gif", 'wb') as f:
+with open("output.png", 'wb') as f:
 	f.write(delete(MainKronos))
 ```
 
@@ -85,7 +85,7 @@ with open("output.gif", 'wb') as f:
 > `MainKronos` is worst than Hitler.
 
 ```python
-with open("output.gif", 'wb') as f:
+with open("output.png", 'wb') as f:
 	f.write(hitler(MainKronos))
 ```
 
@@ -96,7 +96,7 @@ with open("output.gif", 'wb') as f:
 <img src="documentation/output/rip.png" align="right" width="150">
 
 ```python
-with open("output.gif", 'wb') as f:
+with open("output.png", 'wb') as f:
 	f.write(rip(MainKronos))
 ```
 
@@ -107,7 +107,7 @@ with open("output.gif", 'wb') as f:
 <img src="documentation/output/facepalm.png" align="right" width="150">
 
 ```python
-with open("output.gif", 'wb') as f:
+with open("output.png", 'wb') as f:
 	f.write(facepalm(MainKronos))
 ```
 
@@ -118,7 +118,7 @@ with open("output.gif", 'wb') as f:
 > `MainKronos` is a good leader.
 
 ```python
-with open("output.gif", 'wb') as f:
+with open("output.png", 'wb') as f:
 	f.write(leader(MainKronos))
 ```
 
@@ -129,7 +129,7 @@ with open("output.gif", 'wb') as f:
 > `MainKronos` is really beautiful.
 
 ```python
-with open("output.gif", 'wb') as f:
+with open("output.png", 'wb') as f:
 	f.write(beautiful(MainKronos))
 ```
 
@@ -140,7 +140,7 @@ with open("output.gif", 'wb') as f:
 > `MainKronos` is the worst.
 
 ```python
-with open("output.gif", 'wb') as f:
+with open("output.png", 'wb') as f:
 	f.write(affect(MainKronos))
 ```
 
@@ -151,7 +151,7 @@ with open("output.gif", 'wb') as f:
 <img src="documentation/output/kiss.png" align="right" width="150">
 
 ```python
-with open("output.gif", 'wb') as f:
+with open("output.png", 'wb') as f:
 	f.write(kiss(MainKronos, someone))
 ```
 
@@ -162,7 +162,7 @@ with open("output.gif", 'wb') as f:
 > `MainKronos` spanks `someone`.
 
 ```python
-with open("output.gif", 'wb') as f:
+with open("output.png", 'wb') as f:
 	f.write(spank(MainKronos, someone))
 ```
 
@@ -173,6 +173,6 @@ with open("output.gif", 'wb') as f:
 > `MainKronos` says that `someone` is worse than a monster.
 
 ```python
-with open("output.gif", 'wb') as f:
+with open("output.png", 'wb') as f:
 	f.write(bed(MainKronos, someone))
 ```

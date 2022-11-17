@@ -28,7 +28,7 @@ with open("documentation/input/someone.jpeg", 'wb') as f:
 <img src="documentation/input/me.jpg" align="left" width="150">
 <img src="documentation/input/someone.jpg" width="150">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MainKronos` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`someone`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MainKronos` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`someone`
 
 ### Burn
 
@@ -142,9 +142,9 @@ with open("output.gif", 'wb') as f:
 
 ### Kiss
 
-<img src="documentation/output/kiss.png" align="right" width="150">
-
 > `MainKronos` kisses `someone`.
+
+<img src="documentation/output/kiss.png" align="right" width="150">
 
 ```python
 with open("output.gif", 'wb') as f:

@@ -1,5 +1,7 @@
 # PhotoMaker
 
+![Publish to PyPI](https://github.com/MainKronos/AnimeWorld-API/workflows/Publish%20to%20PyPI/badge.svg)
+
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/photomaker)
 ![PyPI - Downloads](https://img.shields.io/pypi/dw/photomaker)
 ![PyPI - Downloads](https://img.shields.io/pypi/dd/photomaker)

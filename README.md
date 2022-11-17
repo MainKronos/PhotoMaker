@@ -1,5 +1,9 @@
 # PhotoMaker
 
+![PyPI - Downloads](https://img.shields.io/pypi/dm/photomaker)
+![PyPI - Downloads](https://img.shields.io/pypi/dw/photomaker)
+![PyPI - Downloads](https://img.shields.io/pypi/dd/photomaker)
+
 **PhotoMaker** is a library to create funny pictures with your friends' photos.
 
 ## Installation 
